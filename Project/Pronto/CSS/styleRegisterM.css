@@ -1,0 +1,123 @@
+body{
+    background-image: linear-gradient(to right,#ffffff,#b1d5ffbb);
+     font-family: sans-serif;
+     margin-top: 110px !important;
+ }
+ .avatar{
+     width: 115px;
+     height: 110px;
+     border-radius: 40%;
+     position: absolute;
+     top: -70px;
+     left: calc(50% -50px);
+     left: 36%;
+ }
+ .register-left{
+     text-align: left;
+     color: #000000;
+     padding: 30px;
+     top:70%;
+ }
+ H3{
+     margin: 0;
+     padding: 0 0 20px;
+     font-size: 30px;
+     color: rgb(0, 0, 0);
+ }
+ 
+ .register-left img{
+     margin-top: 320px;
+     margin-bottom: 1px;
+     width: 110px;
+     animation: mover 1s infinite alternate;
+ }
+ @keyframes mover{
+     0%{transform: translate(0);}
+     100%{transform: translateY(-20px)}
+ }
+ .register-left p{
+     padding: 20px 2px 0;
+ }
+ .register-left .btn-primary{
+     border-radius: 1.5rem;
+     border: none;
+     width: 120px;
+     background: rgb(109, 188, 252);;
+     color: #000000;
+     font-weight: 500;
+     margin-top: 20px;
+     padding: 10px;
+     
+ }
+ .register-left .btn-primary:hover{
+     background: rgb(255, 255, 255);
+ }
+ .register-right{
+     width: 460px;
+     height: 1170px;
+     background:linear-gradient( rgb(255, 246, 246),rgb(113, 191, 255));
+     color: rgb(0, 0, 0);
+     top:88%;
+     left: 48%;
+     position: absolute;
+     transform: translate(-50%,-50%);
+     box-sizing: border-box;
+     padding: 50px 30px;
+     border-radius: 15px;
+     padding: 10px;
+ 
+ }
+ select{
+     padding: 10px 130px;
+     box-sizing: border-box;
+     border-radius: 15px;
+     border: none;
+     background: transparent;
+     outline: none;
+     color: black;
+     font-size: 25px;
+     text-align: center;
+     
+ }
+     
+ 
+ .register-right h2{
+     text-align: center;
+     margin-bottom: 0px;
+     color: black;
+ 
+ }
+ 
+ .but{
+     border: none;
+     outline: none;
+     height: 40px;
+     background: rgb(247, 247, 247);;
+     color: black;
+     font-size: 25px;
+     border-radius: 15px;
+     
+     
+ }
+ .but:hover{
+    background:  rgb(170, 170, 170);
+ }
+ .register-right input[type="text"],input[type=password],input[type=email]{
+     border: none;
+     border-bottom: 1px solid rgb(0, 0, 0);
+     background: transparent;
+     outline: none;
+     height: 31px;
+     color: black;
+     font-size: 35px;
+ }
+ .register-right p{
+     
+     font-weight: bold;
+     color: black;
+ }
+ input{
+     text-align: center;
+ }
+ 
+ 

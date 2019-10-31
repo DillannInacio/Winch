@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" type="text/css" href="CSS/styleRegister.css">
+    <script src="JS/scriptRegistro.js" href="scriptRegistro.js"></script>
+</head>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 offset=md-1">
+                <div class="row">
+                    <div class="col-md-5 register-left">
+                        <img src="Imagens/Logo.png">
+                        <h3>Faça Parte</h3>
+                        <br>
+                        <p class=" T"> Veja a nossa plataforma Winch</p>
+                        <br>
+                        <a href="About.html" class="btn btn-primary">Sobre nós</a>
+                    </div>
+                    <div class="col-md-7 register-right">
+                        <img src="Imagens/Logo.png" class="avatar">
+                        <h2>Cadastro</h2>
+                        <form action=“scriptRegistro.js” method="post" onsubmit="return validar()"></form>
+                        <br>
+                        <p>Nome:</p>
+                        <input type="text" id=name class="form-contrl" placeholder="">
+                        <p>Email:</p>
+                        <input type="email" id=email class="form-contrl" placeholder="">
+                        <p>CPF:</p>
+                        <input type="text" id=cpf class="form-contrl" placeholder="">
+
+                        <p><label for=sexo>Sexo:</label></p>
+                        <select name="Ssexo" id="sexo">
+                            <optgroup label="Sexo">
+                                <option>Masculino</option>
+                                <option>Feminino</option>
+                            </optgroup>
+                        </select>
+
+                        <p>Telefone:</p>
+                        <input type="text" id=telefone class="form-contrl" placeholder="">
+                        <p>Senha:</p>
+                        <input type="password" id="senha" placeholder="">
+                        <p>Confirme a senha:</p>
+                        <input type="password" id="senhacon" placeholder="">
+                        <br>
+                        <br>
+
+                         <button type="submit" class="but" onclick="return validar()" onclick = "saveTextAsFile()">Cadastrar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
